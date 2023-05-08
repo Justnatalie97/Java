@@ -9,10 +9,14 @@ public class Main6 {
         char sym;
         System.out.println("Please enter first number");
         num1 = scn.nextInt();
-        System.out.println("Plese enter second number");
-        num2 = scn.nextInt();
         System.out.println("Please enter an operation(+,-,*,/):");
         sym = scn.next().charAt(0);
+        if(sym != '+' && sym!=  '-' && sym != '*' && sym !='/'){
+            System.out.println("incorrect operation! Please try again(+,-,*,/): ");
+            sym = scn.next().charAt(0);
+        }
+        System.out.println("Plese enter second number");
+        num2 = scn.nextInt();
         switch (sym){
             case '+':
                 result = num1 + num2;
@@ -31,5 +35,6 @@ public class Main6 {
                 System.out.println(result);
                 break;
         }
+
     }
 }
