@@ -17,7 +17,7 @@ public class Main {
         // short [-32,768 to 32,768)
         short number5 = 2000;
         long number6 = 135487435;
-        // char odinochnqj simvol
+        // char- odinochnqj simvol
         char sym ='*';
         String str = "hello world!";
         // boolean true or false
