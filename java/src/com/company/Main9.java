@@ -6,7 +6,7 @@ public class Main9 {
            for(int j =1; j<6; j++){
                System.out.print(i * j + "\t");
            }
-           System.out.print("\n");
+            System.out.print("\n");
         }
     }
 }
