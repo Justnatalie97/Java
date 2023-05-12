@@ -10,8 +10,8 @@ public class Homework1 {
             System.out.print(i + "\t" );
         }
         System.out.print("\n" + "ODD" + "\t");
-            for(int j = 1; j<= 49; j+=2){
-                System.out.print(j + "\t");
+            for(int i = 1; i<= 49; i+=2){
+                System.out.print(i + "\t");
             }
 
         }
