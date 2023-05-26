@@ -10,13 +10,13 @@ public class Homework3 {
         if(count==1){
             System.out.println("1 mai-Kevadpüha(vaba päev)");
         }
-        if(count==9){
+        else if(count==9){
             System.out.println("9 mai-Euroopa päev");
         }
-        if(count==14){
+        else if(count==14){
             System.out.println("14 mai-Emadepäev");
         }
-        if(count==28){
+        else if(count==28){
             System.out.println("28 mai-Nelipühade 1.püha");
         }else{
             System.out.println("tavaline päev");
