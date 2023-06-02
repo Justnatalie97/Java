@@ -13,7 +13,7 @@ public class Main23 {
         String someString = scn.nextLine();
         System.out.println("Please write some character");
         char someChar = scn.next().charAt(0);
-        String[] array = someString.split(" ");
+        String[] array = someString.split("  ");
         for(int i = 0; i< someString.length(); i++){
             if(someString.charAt(i) == someChar){
                 count++;
@@ -27,10 +27,10 @@ public class Main23 {
                 totalWords++;
             }
         }
-        System.out.println(totalWords);
+        System.out.println("In a word/sentences '" + someString + "' " + totalLetters + " letter(s)");
         //System.out.println(Arrays.toString(array));
-        System.out.println(totalLetters);
         System.out.println("In a word/sentences '" + someString + "' character seems " + count + " time(s)");
+        System.out.println("Total words " + totalWords);
 
     }
 }
