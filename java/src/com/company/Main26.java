@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class Main26 {
     public static void main(String[] args) {
+        // ponjatj chto nuzno skopirovatj
+        // public static int[] sort
         int[] array = {1,1,5,5,5,76,3,4,3,-1,1,1,-1};
         //int[] array = {1,1,1,2,2,3,3,3,4,5,5,5};
         Arrays.sort(array);
