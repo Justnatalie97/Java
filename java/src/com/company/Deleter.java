@@ -2,7 +2,7 @@ package com.company;
 
 import java.io.File;
 
-public class Deliter {
+public class Deleter {
     public static void main(String[] args) {
         try {
             File file = new File("src/com/company/Natalja.txt");
