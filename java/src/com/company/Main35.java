@@ -13,6 +13,7 @@ public class Main35 {
         System.out.println(sum(a,false));
     }
     public static int sum(int a, int b){
+
         return a+b;
     }public static int sum(){
         int a, b;

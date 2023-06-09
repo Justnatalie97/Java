@@ -9,7 +9,7 @@ public class Main34_2 {
         System.out.println(Arrays.toString(arrayMaxMin));
         int max = arrayMaxMin[0];
         int min = arrayMaxMin[1];
-        System.out.println("Min value from array is " + min + "\n" + " mmax value from array is " + max);
+        System.out.println("Min value from array is " + min + "\n" + " max value from array is " + max);
 
     }
     public static int[] GetMaxAndMinValueFromArray(int[] array){
