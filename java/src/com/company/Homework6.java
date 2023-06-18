@@ -10,7 +10,7 @@ public class Homework6 {
         number = scn.nextInt();
         boolean isTrue = true;
         while (isTrue) {
-            if (number >4) {
+            if (number > 4) {
                 System.out.println("Please try again");
                 number = scn.nextInt();
             } else {
