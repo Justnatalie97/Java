@@ -9,6 +9,9 @@ public class Main38 {
         capitals.put("Latvia", "Riga");
         capitals.put("France", "Paris");
         System.out.println(capitals);
+        System.out.println("Estonia".hashCode());
+        System.out.println("Latvia".hashCode());
+        System.out.println("France".hashCode());
 
         System.out.println(capitals.get("Latvia"));
 
@@ -34,5 +37,5 @@ public class Main38 {
         }
         float avg = sum/namesage.size();
         System.out.println(avg);
-    }
+}
 }
