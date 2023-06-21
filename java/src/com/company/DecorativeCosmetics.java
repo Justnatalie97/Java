@@ -1,6 +1,6 @@
 package com.company;
 
-public class DecorativeCosmetics {
+public class  DecorativeCosmetics {
     public String eyes;
     public String lips;
     public String skin;
